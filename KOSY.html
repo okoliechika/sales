@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="bootstrap.html">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/b1.jpg" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/b2.jpg" alt="..." width="100%" height="300px">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/b3.jpg" alt="">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Accordion1           
+               </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex temporibus tempore nihil voluptatem iusto quod sint. Voluptas odio at,
+               aliquid deserunt atque nobis, dolorem placeat, animi eum asperiores possimus? Enim. <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Accordion Item 
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Accordion Item 
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+      </div>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aliquam ipsam eveniet corporis, id accusamus? Architecto aperiam, maxime nisi minus culpa exercitationem ut sint, iusto excepturi laudantium qui! Ipsa laborum dicta ipsum, suscipit quo minima, nesciunt laudantium natus voluptatem soluta nihil, ratione id nisi explicabo temporibus vitae dolores culpa asperiores illo reiciendis doloremque neque rem amet ad. Molestias veritatis tempore soluta et, expedita eligendi! Harum possimus non magnam eaque iste dolorum rerum numquam magni, optio, suscipit provident alias? Architecto natus repudiandae rerum molestiae eius perspiciatis ad aliquam dicta corrupti tempora, est sed asperiores reiciendis ducimus temporibus? Officia, atque explicabo obcaecati consectetur magnam reprehenderit nam minus minima unde reiciendis neque delectus? Voluptatum rem corporis blanditiis eaque suscipit deserunt unde repellendus exercitationem voluptatibus sapiente officiis fuga eveniet dicta fugit, impedit nihil dolor eos nobis. Vitae excepturi, ex eius, cum nam nemo possimus, accusamus optio ullam aliquid animi aspernatur maxime quis alias quae doloribus? Quidem dignissimos modi sed neque optio sequi maxime itaque repellendus tempora reiciendis. Adipisci delectus natus soluta aliquam. Quia placeat molestiae quae voluptatum error. Aliquam, odit voluptates deleniti exercitationem modi praesentium! Quisquam expedita unde dolorum quasi enim sit, recusandae dolore eveniet, voluptas repellendus cumque reprehenderit iure dolorem sunt labore corporis illum! Impedit, dicta praesentium dolor, assumenda repellendus qui voluptatem numquam obcaecati in ratione nemo similique commodi error blanditiis fuga beatae cupiditate voluptates! Beatae ratione possimus vitae ducimus repellendus dolorum reprehenderit eos, doloribus magni optio, non eaque quaerat doloremque sunt facere unde porro laboriosam deserunt hic velit. Veritatis minima aut necessitatibus aliquid odio esse doloribus dolorum quasi, laboriosam nam obcaecati! Veritatis inventore sequi nostrum animi nobis illum maxime incidunt sed laborum deserunt doloremque deleniti qui sunt, enim esse hic aspernatur officia! Laudantium quisquam molestiae fugiat magni, minima accusamus quo cumque eveniet, quibusdam omnis explicabo animi tenetur error sed doloremque quae vel quis itaque. Saepe sint nesciunt ipsa distinctio possimus nemo illo repellendus exercitationem numquam aut, sed dolorem quae quasi nihil praesentium quam maiores perspiciatis vero. Molestias cum saepe quibusdam quae ab alias eum eligendi assumenda iusto nobis quis dolorum nam voluptate quas, labore, dolorem reiciendis ipsam sed et, autem voluptas necessitatibus! Voluptate hic excepturi, nesciunt non temporibus cum exercitationem magnam nisi rerum omnis quidem est assumenda sit officia dolor? Similique nam optio tempore numquam rem quidem pariatur cumque illum ullam nulla veritatis illo culpa aliquam atque iste dolore velit dolorum sequi voluptatem tempora, sapiente doloribus debitis perspiciatis. Nobis, animi nam delectus quisquam non commodi earum, nisi, necessitatibus perspiciatis quas sequi est natus vitae itaque quibusdam ipsa dolore? Corrupti veniam modi fugiat consequuntur repellendus exercitationem a error non possimus earum consequatur doloribus, veritatis dolore. Aliquam voluptatem voluptatum esse incidunt vero itaque veniam, placeat dicta maxime adipisci, molestiae provident magni repellat nisi, ullam consequatur sed libero dignissimos. Nisi nihil provident totam omnis. Illo error facere inventore quibusdam ad rem nostrum dicta aperiam id maxime, vero accusantium dolorem veritatis sed qui incidunt expedita debitis eius natus vitae ab similique. Est voluptatibus, accusamus eos facilis ipsam, sunt praesentium distinctio id officia illum voluptatum, totam velit.</p>
+ 
+<p class="text-success">WE GIVE THE BEST DISH</p>
+<p class="text-danger">OUR SERVICE IS VERY POPULAR.</p>
+<p class="text-warning bg-dark">DISTANCE IS NEVER A BARIER, WE CAN ALWAYS REACH OUT </p>
+<p class="text-info bg-dark">WE SUPPLY WITHIN 30 MINUTES</p>
+<p class="text-info-emphasis">YOU CAN ALWAYS REACH US OUT ON OUR IG <a href="link">foodsafety.nutrition@nafdac.gov.ng</a></p>
+<div class="row">
+  <div class="bg-danger col-sm-12 col-md-6 col-lg-8">item 1</div>
+  <div class="bg-warning col-sm-12 col-md-6 col-lg-4">item 2</div>
+</div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+
+</html>
